@@ -1,0 +1,17 @@
+.contact {
+  margin-top: 2rem;
+  color: rgb(248, 241, 232);
+}
+
+.contact__email {
+  font-size: 1.3rem;
+  cursor: default;
+}
+
+.contact__email:hover {
+  color: rgb(224, 156, 67);
+}
+
+.contact__location {
+  font-size: 1rem;
+}

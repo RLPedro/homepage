@@ -1,38 +1,78 @@
+body {
+  background-color: rgb(43, 48, 48);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content {
+  position: fixed;
+  left: 23%;
+  top: 25%;
+  width: 60%;
+  height: 70%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__subtitles {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10rem;
+  margin: .5rem 0 0 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app__title, .app__subtitle {
+  margin: 0;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__subtitle { 
+  color: rgb(220, 184, 138);
+  cursor: default;
+}
+
+.app__subtitle:hover { color: antiquewhite }
+
+.app__title {
+  text-align: left;
+  color:rgb(224, 156, 67);
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  cursor: default;
+}
+
+.app__title:hover {
+  color: antiquewhite;
+}
+
+.app__subtitle { 
+  font-size: 1.2rem;
+}
+.app__social-media {
+  position: absolute;
+  top: 6.5rem;
+  left: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 4rem;
+}
+
+.app__social-media__linkedin,
+.app__social-media__instagram {
+  width: 1.5rem;
+  filter: invert(75%);
+  cursor: pointer;
+}
+
+.app__social-media__linkedin:hover,
+.app__social-media__instagram:hover {
+  filter: invert(100%);
 }

@@ -1,0 +1,22 @@
+.menu {
+  position: absolute;
+  top: 9rem;
+  left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* height: 25vh; */
+  height: 50vh;
+  width: 5rem;
+}
+
+.menu__link {
+  color:antiquewhite;
+  font-size: 1.5rem;
+  cursor: crosshair;
+}
+
+.menu__link:hover {
+  color: rgb(224, 156, 67);
+}
