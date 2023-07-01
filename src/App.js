@@ -1,5 +1,6 @@
 import { Route, Routes, Link } from "react-router-dom"
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
+// import { HashRouter } from 'react-router-dom'
 import Menu from "./components/Menu"
 import Home from "./components/Home"
 import Contact from "./components/Contact"
@@ -11,7 +12,8 @@ import './App.css'
 const App = () => {
   return (
     <div className="App">
-      <HashRouter>
+      {/* <HashRouter> */}
+      <BrowserRouter>
 
       <Link to="./"><h1 className="app__title">ricardo leitão pedro</h1></Link>
       
@@ -21,8 +23,8 @@ const App = () => {
       </div>
 
       <div className="app__social-media">
-        <a href="https://www.linkedin.com/in/ricardoleitaopedro" target="_blank"><img className="app__social-media__linkedin" src={linkedin} alt="linked-in link" /></a>
-        <Link to="https://www.instagram.com/ricardoleitaopedro" target="_blank"><img className="app__social-media__instagram" src={instagram} alt="instagram link" /></Link>
+        <a href="https://www.linkedin.com/in/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__linkedin" src={linkedin} alt="linked-in link" /></a>
+        <Link to="https://www.instagram.com/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__instagram" src={instagram} alt="instagram link" /></Link>
       </div>
 
       <Menu />
@@ -34,7 +36,8 @@ const App = () => {
         <Route path="/writings" element={<Blog />}/>
       </Routes>
 
-      </HashRouter>
+      </BrowserRouter>
+      {/* </HashRouter> */}
     </div>
   );
 }
