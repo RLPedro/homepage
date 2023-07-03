@@ -6,6 +6,7 @@ import Contact from "./components/Contact"
 import Blog from "./components/Blog"
 import instagram from "./components/icons/instagram.png"
 import linkedin from "./components/icons/linkedin.png"
+import me from "./components/imgs/me.jpg"
 import './App.css'
 
 const App = () => {
@@ -24,6 +25,8 @@ const App = () => {
           <a href="https://www.linkedin.com/in/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__linkedin" src={linkedin} alt="linked-in link" /></a>
           <Link to="https://www.instagram.com/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__instagram" src={instagram} alt="instagram link" /></Link>
         </div>
+
+        <img src={me} id="me" alt="AI-generated Ricardo Leitão Pedro"/>
 
         <Menu />
 

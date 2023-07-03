@@ -1,4 +1,5 @@
 import React from 'react';
+// import me from "./imgs/me.jpg";
 import "./Home.css";
 
 const Home = () => {
@@ -17,6 +18,9 @@ const Home = () => {
           <span style={{fontWeight: 'bold'}}> business</span>.
       </p>
       <br />
+
+      {/* <img src={me} id="me" alt="AI-generated Ricardo Leitão Pedro"/> */}
+
       <p>Have a talk about any of these or others? Hit me 
         <a href="./contact" className="home__link"> up</a> !
       </p>

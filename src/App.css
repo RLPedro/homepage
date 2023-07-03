@@ -13,7 +13,8 @@ a {
 
 .content {
   position: fixed;
-  left: 23%;
+  /* left: 23%; */
+  left: 20%;
   top: 25%;
   width: 60%;
   height: 70%;
@@ -75,4 +76,13 @@ a {
 .app__social-media__linkedin:hover,
 .app__social-media__instagram:hover {
   filter: invert(100%);
+}
+
+#me {
+  width: 15%;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  opacity: 80%;
+  border-radius: 50%;
 }
