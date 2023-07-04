@@ -1,15 +1,16 @@
 .blog {
-  /* position: absolute;
-  left: 23%;
-  top: 25%;
-  width: 60%;
-  height: 70%; */
   background-color: rgb(248, 241, 232);
   font-size: 1.2rem;
   color:rgb(102, 66, 18);
   text-align: justify;
-  padding-left: 1rem;
+  padding: 1rem 1rem 0 1rem;
   border-radius: 1px;
+  overflow: scroll;
+  cursor:row-resize;
+}
+
+.blog::-webkit-scrollbar {
+  display: none;
 }
 
 .blog__date {

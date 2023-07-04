@@ -6,8 +6,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  /* height: 25vh; */
-  height: 50vh;
+  /* height: 50vh; */
+  height: 40vh;
   width: 5rem;
 }
 
