@@ -63,18 +63,21 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 4rem;
+  /* width: 4rem; */
+  width: 5.5rem;
 }
 
 .app__social-media__linkedin,
-.app__social-media__instagram {
+.app__social-media__instagram,
+.app__social-media__twitter {
   width: 1.5rem;
   filter: invert(75%);
   cursor: pointer;
 }
 
 .app__social-media__linkedin:hover,
-.app__social-media__instagram:hover {
+.app__social-media__instagram:hover,
+.app__social-media__twitter:hover {
   filter: invert(100%);
 }
 
