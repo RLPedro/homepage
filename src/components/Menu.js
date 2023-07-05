@@ -9,7 +9,7 @@ const Menu = () => {
   return (
     <div className="menu">
 
-      <div className={`menu__content open-menu--${openMenu}`}>
+      <div className={`menu__content open-menu--${openMenu}`} onClick={() => setOpenMenu(false)}>
         <Link className="menu__link" to="/writings">writings</Link>
         <Link className="menu__link" to="https://ricardoleitaopedro.bandcamp.com" target="_blank">music</Link>
         <Link className="menu__link" to="https://github.com/rlpedro" target="_blank">code</Link>

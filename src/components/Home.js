@@ -13,6 +13,10 @@ const Home = () => {
       <br />
 
       <p style={{margin: '0'}}>Also a compulsive reader and ever-curious human.</p>
+
+      <br/>
+      <br />
+      
       <p style={{margin: '0'}}>
         Currently mostly interested in learning about 
           <span style={{fontWeight: 'bold'}}> intelligence</span> (artificial|human),

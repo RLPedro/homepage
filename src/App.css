@@ -98,9 +98,29 @@ a { text-decoration: none; }
   }
 
   .app__social-media {
-    top: 7.5rem;
     top: 4.5rem;
     left: 13rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .app__title {
+    margin: 1rem 6rem 0 1rem;
+  }
+
+
+  .app__subtitles {
+    position: absolute;
+    top: 6.5rem;
+    left: .5rem;
+    width: 8rem;
+  }
+
+  .app__social-media {
+    top: 4.7rem;
+    left: 9.5rem;
   }
 
 }

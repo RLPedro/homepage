@@ -24,6 +24,7 @@
   color: rgb(224, 156, 67);
 }
 
+
 @media screen and (max-width: 800px) {
 
   .menu__content {
@@ -51,6 +52,25 @@
     margin: 0;
     padding-bottom: .5rem;
     width: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .menu__small-screen {
+    top: 4.8rem;
+    left: 16rem;
+  }
+
+  .open-menu--true {
+    top: 7rem;
+    left: 10rem;
+    width: 12rem;
+  }
+
+  .menu__link {
+    font-size: 1.2rem;
   }
 
 }
