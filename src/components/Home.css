@@ -12,12 +12,3 @@ font-size: 1.1rem;
 .home__link:hover {
   color: rgb(248, 241, 232);
 }
-
-/* #me {
-  width: 15%;
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  opacity: 80%;
-  border-radius: 50%;
-} */

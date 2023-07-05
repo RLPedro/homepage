@@ -5,9 +5,12 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="content home">
-      <p style={{fontWeight: 'bold', fontSize: '1.4rem', marginBottom: '2rem'}}>
+      <p style={{fontWeight: 'bold', fontSize: '1.4rem'}}>
         Programmer, musician and occasional writer.
       </p>
+
+      <br />
+      <br />
 
       <p style={{margin: '0'}}>Also a compulsive reader and ever-curious human.</p>
       <p style={{margin: '0'}}>
@@ -17,9 +20,9 @@ const Home = () => {
           <span style={{fontWeight: 'bold'}}> leadership</span> and 
           <span style={{fontWeight: 'bold'}}> business</span>.
       </p>
-      <br />
 
-      {/* <img src={me} id="me" alt="AI-generated Ricardo Leitão Pedro"/> */}
+      <br />
+      <br />
 
       <p>Have a talk about any of these or others? Hit me 
         <a href="./contact" className="home__link"> up</a> !

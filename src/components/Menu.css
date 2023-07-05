@@ -1,14 +1,17 @@
-.menu {
+.menu__content {
   position: absolute;
-  top: 9rem;
+  top: 11rem;
   left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  /* height: 50vh; */
   height: 40vh;
   width: 5rem;
+}
+
+.menu__small-screen {
+  display: none;
 }
 
 .menu__link {
@@ -19,4 +22,35 @@
 
 .menu__link:hover {
   color: rgb(224, 156, 67);
+}
+
+@media screen and (max-width: 800px) {
+
+  .menu__content {
+    display: none;
+  }
+
+  .open-menu--true {
+    display:flex;
+    flex-direction: row;
+    width: 15rem;
+    top: 4.5rem;
+    left: 24rem;
+  }
+
+  .menu__small-screen {
+    display:block;
+    position:fixed;
+    top: 4.7em;
+    left: 21rem;
+    cursor: pointer;
+  }
+
+  .menu__small-screen__line {
+    border-top: 2px solid white;
+    margin: 0;
+    padding-bottom: .5rem;
+    width: 2rem;
+  }
+
 }
