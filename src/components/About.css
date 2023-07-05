@@ -69,3 +69,11 @@
   }
 
 }
+
+@media screen and (max-width: 400px) {
+
+  .about__images {
+    top: 35rem;
+  }
+
+}

@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Menu.css";
 
-const Menu = () => {
-
-  const [ openMenu, setOpenMenu ] = useState(false);
+const Menu = ({ openMenu, setOpenMenu }) => {
 
   return (
     <div className="menu">

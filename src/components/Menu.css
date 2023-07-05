@@ -74,3 +74,12 @@
   }
 
 }
+
+@media screen and (max-width: 400px) {
+
+  .menu__small-screen {
+    top: 4.4rem;
+    left: 15rem;
+  }
+
+}
