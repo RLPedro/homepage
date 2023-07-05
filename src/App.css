@@ -93,13 +93,23 @@ a { text-decoration: none; }
 
   }
 
+  .app__title:hover { color: rgb(224, 156, 67); }
+
   .app__subtitles {
     width: 9rem;
   }
 
+  .app__subtitle:hover { color: rgb(220, 184, 138); }
+
   .app__social-media {
     top: 4.5rem;
     left: 13rem;
+  }
+
+  .app__social-media__linkedin:hover,
+  .app__social-media__instagram:hover,
+  .app__social-media__twitter:hover {
+    filter: invert(75%)
   }
 
 }

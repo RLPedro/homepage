@@ -39,6 +39,10 @@
 
 @media screen and (max-width: 800px) {
 
+  .about__link:hover {
+    color: rgb(224, 156, 67);
+  }
+
   .about__images {
     top: 16.5rem;
   }
