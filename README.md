@@ -1,4 +1,4 @@
 ## Homepage
 #### [https://ricardoleitaopedro.net](https://ricardoleitaopedro.net)
 
-![screenshot](src/imgs/printscreen.png)
+![screenshot](src/components/imgs/printscreen.png)
