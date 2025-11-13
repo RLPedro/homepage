@@ -7,7 +7,7 @@ import Contact from "./components/Contact"
 import Blog from "./components/Blog"
 import instagram from "./components/icons/instagram.png"
 import linkedin from "./components/icons/linkedin.png"
-import twitter from "./components/icons/twitter.png"
+import x from "./components/icons/x.png"
 import me from "./components/imgs/me.jpg"
 import './App.css'
 
@@ -31,7 +31,7 @@ const App = () => {
         <div className="app__social-media" onClick={() => setOpenMenu(false)}>
           <Link to="https://www.linkedin.com/in/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__linkedin" src={linkedin} alt="linked-in link" /></Link>
           <Link to="https://www.instagram.com/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__instagram" src={instagram} alt="instagram link" /></Link>
-          <Link to="https://x.com/ricardolpedro" target="_blank" rel="noreferrer"><img className="app__social-media__twitter" src={twitter} alt="twitter link" /></Link>
+          <Link to="https://x.com/ricardolpedro" target="_blank" rel="noreferrer"><img className="app__social-media__twitter" src={x} alt="twitter link" /></Link>
 
         </div>
 
