@@ -31,7 +31,7 @@ const App = () => {
         <div className="app__social-media" onClick={() => setOpenMenu(false)}>
           <Link to="https://www.linkedin.com/in/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__linkedin" src={linkedin} alt="linked-in link" /></Link>
           <Link to="https://www.instagram.com/ricardoleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__instagram" src={instagram} alt="instagram link" /></Link>
-          <Link to="https://www.twitter.com/rleitaopedro" target="_blank" rel="noreferrer"><img className="app__social-media__twitter" src={twitter} alt="twitter link" /></Link>
+          <Link to="https://x.com/ricardolpedro" target="_blank" rel="noreferrer"><img className="app__social-media__twitter" src={twitter} alt="twitter link" /></Link>
 
         </div>
 
