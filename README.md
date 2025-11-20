@@ -1,6 +1,7 @@
-# Ricardo Leitão Pedro
+![Screenshot](./screenshot.png)
 
-Personal website & portfolio – [ricardoleitaopedro.net](https://ricardoleitaopedro.net)
+Personal website & portfolio
+[ricardoleitaopedro.net](https://ricardoleitaopedro.net)
 
 ### Tech Stack
 - React
