@@ -151,10 +151,10 @@ const App = () => {
                 <div className="mt-6">
                   <h4 className="text-xs text-white/60">Interests</h4>
                   <p className="text-sm mt-2">
-                    Intelligence (human and artificial), 
-                    history, 
-                    philosophy, 
-                    and computer history.
+                    Intelligence (human and artificial),
+                    technology,
+                    culture history,
+                    and philosophy.
                   </p>
                 </div>
 
