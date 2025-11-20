@@ -150,20 +150,22 @@ const App = () => {
 
                 <div className="mt-6">
                   <h4 className="text-xs text-white/60">Interests</h4>
-                  <p className="text-sm mt-2">
+                  <p className="text-sm mt-2 text-white/75">
                     Intelligence (human and artificial),
                     technology,
-                    culture history,
+                    cultural history,
                     and philosophy.
                   </p>
                 </div>
+
+                < br />
 
                 <div className="mt-6">
                   <h4 className="text-xs text-white/75">Recent notes</h4>
                   <ul className="mt-3 space-y-3 text-sm">
 
                     <li className="flex justify-between items-start">
-                      <a href="#" className="underline">
+                      <a href="#" className="">
                         Coming soon ...
                       </a>
                       <span className="text-xs text-white/60">TBA, 2025</span>
@@ -181,6 +183,9 @@ const App = () => {
                   </ul>
                 </div>
 
+                < br />
+                < br />
+
                 <div className="flex space-x-4 mt-6">
                   <a href="https://www.linkedin.com/in/ricardoleitaopedro" target="_blank" rel="noreferrer">
                     <img className="w-7" src={linkedin} style={{ filter: "invert(75%)" }} alt="link to LinkedIn profile" />
@@ -192,6 +197,9 @@ const App = () => {
                     <img className="w-7" src={instagram} style={{ filter: "invert(75%)" }} alt="link to Instagram profile" />
                   </a>
                 </div>
+
+                < br/>
+                <p className="text-xs text-white">ricardoleitaopedro@gmail.com</p>
               </div>
             </div>
           </aside>
