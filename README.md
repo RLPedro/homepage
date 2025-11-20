@@ -1,9 +1,10 @@
 ![Screenshot](./screenshot.png)
 
 Personal website & portfolio
+
 [ricardoleitaopedro.net](https://ricardoleitaopedro.net)
 
-### Tech Stack
+#### Tech Stack
 - React
 - Vite
 - Tailwind CSS
