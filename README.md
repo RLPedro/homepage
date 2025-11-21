@@ -1,4 +1,4 @@
-![Screenshot](./images/screenshot.png)
+![Screenshot](./src/images/screenshot.png)
 
 Personal website & portfolio
 
