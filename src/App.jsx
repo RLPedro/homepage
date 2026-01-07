@@ -1,10 +1,16 @@
 import instagram from "./icons/instagram.png";
 import linkedin from "./icons/linkedin.png";
 import x from "./icons/x.png";
+import { useState } from "react";
+import NoteModal from "./components/NoteModal";
 import { projects } from "./data/projects";
 import ProjectCard from "./components/ProjectCard";
 
 const App = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalContent, setModalContent] = useState("");
+
   return (
     <div className="min-h-screen text-white antialiased bg-neutral-800">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -29,13 +35,16 @@ const App = () => {
 
                 <h4 className="text-xs text-white/60">Experience</h4>
                 <p className="mt-4 text-sm text-white/75">
-                  Front-end developer @ Sensys Gatso, responsible for the Puls' user interface.
+                  Software engineer @ Umain (Eidra). 2026-.
                 </p>
                 <p className="mt-4 text-sm text-white/75">
-                  Full-stack developer @ {"</salt>"}, educated in the "hardest bootcamp in the world" and consultant after that
+                  Front-end developer @ Sensys Gatso, responsible for the Puls' user interface. 2022-2025.
                 </p>
                 <p className="mt-4 text-sm text-white/75">
-                  Lutenist and singer @ free-lancing, recorded a solo album and performing with different people around the World
+                  Full-stack developer @ {"</salt>"}, educated in the "hardest bootcamp in the world" and consultant after that. 2021-2023.
+                </p>
+                <p className="mt-4 text-sm text-white/75">
+                  Lutenist and singer, recorded a solo album and performed around the world. 2009-.
                 </p>
 
                 <div className="mt-6">
@@ -44,7 +53,7 @@ const App = () => {
                     Intelligence (human and artificial),
                     technology,
                     cultural history,
-                    and philosophy.
+                    philosophy.
                   </p>
                 </div>
 
@@ -55,10 +64,21 @@ const App = () => {
                   <ul className="mt-3 space-y-3 text-sm">
 
                     <li className="flex justify-between items-start">
-                      <a href="#" className="">
-                        Coming soon ...
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setModalTitle("Note — 7 Jan, 2026");
+                          setModalContent(
+                            "After an arduous few months of searching in the current job market, it feels particularly rewarding (and humbling) to join such an established company at such an exciting stage (new team growing in Gothenburg)."
+                          )
+                          setModalOpen(true);
+                        }}
+                        className="cursor-pointer"
+                      >
+                        Starting next week at Umain (part of Eidra)!
                       </a>
-                      <span className="text-xs text-white/60">TBA, 2025</span>
+                      <span className="text-xs text-white/60">7/Jan, 2026</span>
                     </li>
 
                     {/* 
@@ -113,6 +133,9 @@ const App = () => {
           </section>
         </div>
       </div>
+      <NoteModal open={modalOpen} onClose={() => setModalOpen(false)} title={modalTitle}>
+        {modalContent}
+      </NoteModal>
     </div>
   );
 };
